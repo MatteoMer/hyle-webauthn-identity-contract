@@ -1,0 +1,4 @@
+{
+    "assertion": {"id":"QTXyaKPpQFOOy9up4dzBzA","rawId":"QTXyaKPpQFOOy9up4dzBzA","response":{"authenticatorData":"SZYN5YgOjGh0NBcPZHZgW4_krrmihjLHmVzzuoMdl2MdAAAAAA","clientDataJSON":"eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmdlIjoiUi1KY0ZYbXFDUWhHUWxOYVIxY05tMS1PTXJ4VzlTb1M0WHk3ZXlNYS1VTSIsIm9yaWdpbiI6Imh0dHA6Ly9sb2NhbGhvc3Q6MzAwMCIsImNyb3NzT3JpZ2luIjpmYWxzZX0","signature":"MEYCIQCrgoqAND0Xa1CkfEmxB8fL1qOe_5Ei1k2qJCIhah9k4AIhAM6Nk7H4qGDeESW9ST-T-NawY3tmUWeoD8RP_cuyndm6","userHandle":"NzljYzNhYTYtZmVkOS00NTUxLWE5M2QtN2UzMGZjZGNmOTc3"},"type":"public-key","clientExtensionResults":{},"authenticatorAttachment":"platform"},
+    "username": "Matteo_Mer"
+}
