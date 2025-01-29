@@ -1,5 +1,4 @@
 
 {
-    "attestation": {"id":"QTXyaKPpQFOOy9up4dzBzA","rawId":"QTXyaKPpQFOOy9up4dzBzA","response":{"attestationObject":"o2NmbXRkbm9uZWdhdHRTdG10oGhhdXRoRGF0YViUSZYN5YgOjGh0NBcPZHZgW4_krrmihjLHmVzzuoMdl2NdAAAAANVIgm55tNtAo9gREW9-g0kAEEE18mij6UBTjsvbqeHcwcylAQIDJiABIVggBO700eoD9GDY3G_ktQmfTPrqZGhRc5zaTRZjOnlx87UiWCCIoSsi3-1fzZSUaDqlYilWpCiVkzdD2Y72rYf8GeD-Rw","clientDataJSON":"eyJ0eXBlIjoid2ViYXV0aG4uY3JlYXRlIiwiY2hhbGxlbmdlIjoiSW1KaU1qQmhPVFV6TW1NME0yTTVNVGRrWldVMlpqRTRNamRpWmpGa05qQmlaakV4WVRoaVlXSmpOemswWWpKbE1tRmlOR0U1WWpSbVpqTmpPRFkwT1dRaSIsIm9yaWdpbiI6Imh0dHA6Ly9sb2NhbGhvc3Q6MzAwMCIsImNyb3NzT3JpZ2luIjpmYWxzZX0","transports":["internal"],"publicKeyAlgorithm":-7,"publicKey":"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEBO700eoD9GDY3G_ktQmfTPrqZGhRc5zaTRZjOnlx87WIoSsi3-1fzZSUaDqlYilWpCiVkzdD2Y72rYf8GeD-Rw","authenticatorData":"SZYN5YgOjGh0NBcPZHZgW4_krrmihjLHmVzzuoMdl2NdAAAAANVIgm55tNtAo9gREW9-g0kAEEE18mij6UBTjsvbqeHcwcylAQIDJiABIVggBO700eoD9GDY3G_ktQmfTPrqZGhRc5zaTRZjOnlx87UiWCCIoSsi3-1fzZSUaDqlYilWpCiVkzdD2Y72rYf8GeD-Rw"},"type":"public-key","clientExtensionResults":{"credProps":{"rk":true}},"authenticatorAttachment":"platform"},
     "username": "Matteo_Mer"
 }

@@ -1,7 +1,7 @@
 use base64::{engine::general_purpose::URL_SAFE_NO_PAD, Engine as _};
 use hyle_sdk::{
     flatten_blobs, identity_provider::IdentityVerification, Blob, ContractInput, Digestable,
-    HyleOutput, StateDigest,
+    HyleOutput,
 };
 use p256::ecdsa::{signature::Verifier, Signature, VerifyingKey};
 use serde::{Deserialize, Serialize};
@@ -68,7 +68,7 @@ struct AuthenticatorResponse {
 }
 
 #[derive(Serialize, Deserialize, Debug)]
-struct WebAuthnAttestation {
+pub struct WebAuthnAttestation {
     id: String,
     #[serde(rename = "rawId")]
     raw_id: String,
@@ -537,10 +537,11 @@ fn register_action(input: ContractInput) -> Result<HyleOutput, ContractError> {
         .ok_or(ContractError::InvalidInput("Could not get blob"))?;
 
     // Extract registration data from the blob
-    let request: RegistrationRequest = serde_json::from_slice(&contract_blob.data.0)
+    let attestation: WebAuthnAttestation = serde_json::from_slice(&input.private_blob)
         .map_err(|_| ContractError::InvalidInput("Could not parse registration request"))?;
-    let username = request.username;
-    let attestation = request.attestation;
+    let username = serde_json::from_slice(contract_blob.data.0)
+        .expect("could not parse")
+        .get();
 
     // Perform registration
     let attestation_str =
